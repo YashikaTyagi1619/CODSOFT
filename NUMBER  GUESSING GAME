@@ -28,6 +28,6 @@ int main() {
             hasGuessed = true;
         }
     }
-    
+
     return 0;
 }
