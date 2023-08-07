@@ -1,0 +1,33 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>  // For generating random numbers
+
+int main() {
+    // Using the current time as a seed for random number generation
+    std::srand(static_cast<unsigned int>(std::time(nullptr)));
+    
+    int secretNumber = std::rand() % 100 + 1;  // Generate a random number between 1 and 100
+    int guess;
+    int attempts = 0;
+    bool hasGuessed = false;
+    
+    std::cout << "Welcome to the Number Guessing Game!\n\n" << std::endl;
+    std::cout << "I'm thinking of a number between 1 and 100.\n" << std::endl;
+
+    while (!hasGuessed) {
+        std::cout << "Enter your guess: ";
+        std::cin >> guess;
+        attempts++;
+
+        if (guess < secretNumber) {
+            std::cout << "Too low! Try again." << std::endl;
+        } else if (guess > secretNumber) {
+            std::cout << "Too high! Try again." << std::endl;
+        } else {
+            std::cout << "Congratulations! You guessed the number in " << attempts << " attempts." << std::endl;
+            hasGuessed = true;
+        }
+    }
+    
+    return 0;
+}
