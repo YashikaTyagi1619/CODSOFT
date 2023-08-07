@@ -1,7 +1,9 @@
 # CODSOFT
 
 # Codsoft 
-This is simple cpp projects I did during my codsoft internship
+This is simple cpp projects I did during my codsoft internship.
+
+
 
 Task 1 is a number guessing game :A program that generates a random number and asks the
 user to guess it. Provide feedback on whether the guess is too
