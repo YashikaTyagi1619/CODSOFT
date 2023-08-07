@@ -1,7 +1,7 @@
 # CODSOFT
 
 # Codsoft 
-This is simple cpp projects I did during my codsoft internship.
+These are some c++ projects which I was assigned during my codsoft internship. There are total of three tasks which are as follows:
 
 
 
