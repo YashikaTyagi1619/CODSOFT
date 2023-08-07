@@ -1,12 +1,12 @@
 #include <iostream>
 #include <ctime>
-#include <cstdlib>  // For generating random numbers
+#include <cstdlib>  
 
 int main() {
-    // Using the current time as a seed for random number generation
+
     std::srand(static_cast<unsigned int>(std::time(nullptr)));
     
-    int secretNumber = std::rand() % 100 + 1;  // Generate a random number between 1 and 100
+    int secretNumber = std::rand() % 100 + 1; 
     int guess;
     int attempts = 0;
     bool hasGuessed = false;
