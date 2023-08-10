@@ -14,9 +14,6 @@ operations such as addition, subtraction, multiplication, and
 division. Allow the user to input two numbers and choose an
 operation to perform.
 
-Task 3 is a Tic-Tac-Toe game that
-allows two players to play against each other
-
 
 
 ![image](https://github.com/SMARTHMALIK/Codsoft/assets/104513607/67f31325-7436-4f5a-bd91-a71bd242ca29)
